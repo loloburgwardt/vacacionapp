@@ -3,3 +3,4 @@ const controller = {
         res.send('Estamos en el home!')
     }
 }
+module.exports=controller;

@@ -1,7 +1,7 @@
 const express = require ('express');
 const app = express();
 const methodOverride = require('method-override');
-const homeRouter = require('./routes/homeRouter');
+const homeRouter = require('./routes/home');
 
 //Seteamos las configuraciones de express
 app.use(express.static(__dirname + '/public'));
