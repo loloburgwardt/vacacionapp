@@ -1,0 +1,61 @@
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(https://images.pexels.com/photos/1482927/pexels-photo-1482927.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    color: rgba(81, 81, 197, 0.986);
+}
+header {
+    display: flex;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+header h1 {
+    font-size: 2.5rem;
+    margin-left: 10px;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color:whitesmoke;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: dimgray;
+}
+h3 {
+    width: 400px;
+}
+#registrar {
+    background-image: url(https://images.pexels.com/photos/914929/pexels-photo-914929.jpeg?cs=srgb&dl=pair-of-red-and-white-low-top-sneakers-914929.jpg&fm=jpgof-red-and-white-low-.top-sneakers-914929.jpg);
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+}
+#autorizar {
+    background-image: url(./positive-senior-man-in-eyeglasses-showing-thumbs-up-and-3824771.jpg);
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+
+}
+
+footer {
+    height: 100px;
+    background-color: rgba(210, 226, 235, 0.979);
+    
+}
+footer h4 {
+    color: black;
+    margin: 2rem;
+}
