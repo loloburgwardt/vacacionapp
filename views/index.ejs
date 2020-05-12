@@ -7,16 +7,7 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <Header>
-        <h1>vac.app</h1>
-        <p>es una aplicacion creada para el registro, autorizacion, constrol y gestion de tus vacaciones</p>
-    </Header>
-    <nav>
-        <h4>Home</h4>
-        <h4>Nuestra Empresa</h4>
-        <h4>Consultanos!!</h4>
-        <h4>Trabaja con nosotros</h4>
-    </nav>
+    <%- include('./partials/header.ejs') %>
     
     <main>
         <Section id='registrar'>
@@ -39,8 +30,6 @@
 
         </section>
     </main>
-    <footer>
-        <h4>copyright vac.app@2020</h4>
-    </footer>
+    <%- include('./partials/footer.ejs') %>
 </body>
 </html>
