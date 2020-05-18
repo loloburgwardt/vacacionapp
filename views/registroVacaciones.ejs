@@ -8,7 +8,28 @@
 </head>
 <body>
     <%- include('./partials/header.ejs') %>
+    <div class='register-form'>
+        <h2>1. Registra las fechas de tus vacaciones</h2>
 
+        <form class='register' action="/register" method="POST">
+            <label for="desde">Desde:</label><br>
+            <input type="date" name='desde' class='cien' placeholder='Desde'><br>
+            <label for="hasta">Hasta:</label><br>
+            <input type="date" name='hasta' class='cien' placeholder="Hasta"><br>
+        </form>
+        <h2>2. Envia el mail para pedir autorizacion</h2>
+        <p class= 'inicio-sesion'>Carga y confirma elmail de la persona que autoriza tus vacaciones</p>
+            <!-- <label for="email">Email:</label><br> -->
+            <input type="email" name='email'class='cien' placeholder="Email"><br>
+            
+            <!-- <label for="confirmaremail">Email:</label><br> -->
+            <input type="email" name='confirmaremail'class='cien' placeholder="Confirmar email"><br>
+            <!-- <label for="type">Tipo:</label><br> -->
+            
+            <button type='submit'>Pedilas!!!!!!</button>
+           
+        </form>
+    </div>
 
     <%- include('./partials/footer.ejs') %>
 </body>
