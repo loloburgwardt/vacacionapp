@@ -2,6 +2,7 @@ html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-image: url(https://images.pexels.com/photos/1482927/pexels-photo-1482927.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
     color: rgba(81, 81, 197, 0.986);
+    background-size: cover;
 }
 header {
     display: flex;
@@ -43,7 +44,7 @@ h3 {
     background-size: cover;
 }
 #autorizar {
-    background-image: url(./positive-senior-man-in-eyeglasses-showing-thumbs-up-and-3824771.jpg);
+    background-image: url(../images/positive-senior-man-in-eyeglasses-showing-thumbs-up-and-3824771.jpg);
     width: 400px;
     height: 300px;
     background-size: cover;
