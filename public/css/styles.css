@@ -62,7 +62,7 @@ footer h4 {
 }
 
 .registrar-container {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
     
@@ -73,7 +73,26 @@ footer h4 {
     border: blue solid 1px;
     width: 500px;
     height: 150px;
+    
 }
 .inlet form {
     display: inline-flex;
+}
+#menu-auto {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.boton {
+    width: 150px;
+    height: 35px;
+    border: blue solid 1px;
+}
+.botondoble {
+    width: 300px;
+    height: 35px;
+    background-color: chartreuse;
+}
+.boton form {
+    width: 150px;
+    height: 35px;
 }
