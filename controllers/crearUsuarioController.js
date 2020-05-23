@@ -9,7 +9,8 @@ const controller = {
         users = JSON.parse(users);
         let user = {
             email: req.body.email,
-            password: bcryptjs.hashSync(req.body.password,10)
+            password: bcryptjs.hashSync(req.body.password,10),
+            pedidos: []
         }
         users = [...users, user]
         users = JSON.stringify(users, null, ' ');

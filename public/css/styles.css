@@ -96,3 +96,7 @@ footer h4 {
     width: 150px;
     height: 35px;
 }
+h2.registrar-titulo{
+    display:block;
+    width:100%;
+}

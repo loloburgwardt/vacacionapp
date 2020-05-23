@@ -4,6 +4,7 @@ const loginController = require('../controllers/loginController');
 const crearSesionMiddleware = require('../middlewares/crearSesionMiddleware')
 const crearUsuarioController = require('../controllers/crearUsuarioController')
 
+
 router.post('/registrante',crearSesionMiddleware, loginController.login);
 router.post('/autorizante',loginController.login)
 
