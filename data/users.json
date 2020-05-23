@@ -18,6 +18,17 @@
  {
   "email": "gburgwardt@gmail.com",
   "password": "$2a$10$I.38PjnyG/w4tPlGVuvZsOvy27mxdNFIoxCEBdxYZTxvvm3uoBx4W",
-  "pedidos": []
+  "pedidos": [
+   {
+    "desde": "2020-05-23",
+    "hasta": "2020-05-29",
+    "estado": "Pendiente"
+   },
+   {
+    "desde": "",
+    "hasta": "",
+    "estado": "Pendiente"
+   }
+  ]
  }
 ]

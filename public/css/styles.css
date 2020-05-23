@@ -4,28 +4,13 @@ html {
     color: rgba(81, 81, 197, 0.986);
     background-size: cover;
 }
-header {
-    display: flex;
-    min-height: 100px;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    color: whitesmoke;
-}
-header h1 {
-    font-size: 2.5rem;
-    margin-left: 10px;
-}
+
 main {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
 }
-nav {
-    display: flex;
-    justify-content: space-around;
-    background-color:whitesmoke;
-}
+
 section {
     margin: 20px;
     padding: 20px;
@@ -51,52 +36,6 @@ h3 {
 
 }
 
-footer {
-    height: 100px;
-    background-color: rgba(210, 226, 235, 0.979);
-    
-}
-footer h4 {
-    color: black;
-    margin: 2rem;
-}
 
-.registrar-container {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-.inlet {
-    margin: 20px;
-    padding: 10px;
-    border: blue solid 1px;
-    width: 500px;
-    height: 150px;
-    
-}
-.inlet form {
-    display: inline-flex;
-}
-#menu-auto {
-    display: inline-flex;
-    flex-wrap: wrap;
-}
-.boton {
-    width: 150px;
-    height: 35px;
-    border: blue solid 1px;
-}
-.botondoble {
-    width: 300px;
-    height: 35px;
-    background-color: chartreuse;
-}
-.boton form {
-    width: 150px;
-    height: 35px;
-}
-h2.registrar-titulo{
-    display:block;
-    width:100%;
-}
+
+
