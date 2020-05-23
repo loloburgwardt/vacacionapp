@@ -22,20 +22,26 @@
         <Section id='registrar'>
             <h3>Para registrar tu pedido de vacaciones ingresa tu mail de empresa y tu password</h3>
             <!-- <label for= >email:</label> -->
-            <input type='email' name="email" placeholder='Email'>   
-            <label for= >Password:</label>
-            <input type= id= password="password">
-            <br>
-            <input type="submit" value="REGISTRA">
+            <form action="/login/registrante" method='POST'>
+                <input type='email' name="email" placeholder='Email'> <br>  
+                <input type='password' name='password' placeholder="Contraseña">
+                <br>
+                <input type="submit" value="REGISTRA">
+                <%if (typeof(crearSesion) != 'undefined'){%>
+                    <p style="color: red; background-color: white; border: 1px solid red;">Se te ha enviado un mail a la siguiente direccion: <%=crearSesion.email%></p>
+                <%}%>  
+            </form>
+            
         </Section>
         <section id='autorizar'>
             <h3>Para autorizar un pedido de vacaciones ingresa tu mail de empresa y tu password</h3>
-            <label for= >email:</label>
-            <input type= id= email="email">   
-            <label for= >Password:</label>
-            <input type= id= password="password">
-            <br>
-            <input type="submit" value="AUTORIZA">
+            <form action="/login/autorizante" method="POST">
+                <input type='email' name='email' placeholder="Email">   <br>
+                <input type='password' name='password' placeholder="Contraseña">
+                <br>
+                <input type="submit" value="AUTORIZA">                
+            </form>
+
 
         </section>
     </main>

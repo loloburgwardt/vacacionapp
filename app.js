@@ -3,6 +3,8 @@ const app = express();
 const methodOverride = require('method-override');
 const homeRouter = require('./routes/home');
 const registrarRouter = require('./routes/registrar');
+const loginRouter = require('./routes/login');
+const session = require('express-session');
 
 //Seteamos las configuraciones de express
 app.use(express.static(__dirname + '/public'));
@@ -10,6 +12,7 @@ app.set('view engine','ejs');
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 app.use(methodOverride('_method'))
+app.use(session({secret: 'vacap, loco'}));
 
 //Levantamos el servidor
 app.listen(3030, function(){
@@ -19,3 +22,4 @@ app.listen(3030, function(){
 //Rutas
 app.use('/', homeRouter);
 app.use('/registrar', registrarRouter);
+app.use('/login', loginRouter);
