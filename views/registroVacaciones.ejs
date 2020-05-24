@@ -9,33 +9,32 @@
 </head>
 <body>
     <%- include('./partials/header.ejs') %>
+    <!--saludo de bienvenida al usuario-->
+    <h2 class='registrar-titulo'>Bienvenido nuevamente <%=user.email%> !!!!!!</h2>
+    <!--registrar-container incluye un inlet-grande y dos inlet-->
     <div class='registrar-container'>
-        <h2 class='registrar-titulo'>Bienvenido <%=user.email%></h2>
-        <div class="inlet">
-            <h2>1. Registra las fechas de tus vacaciones</h2>
+        <div class="inlet-grande">
             <form class='register' action="/registrar" method="POST">
-                <label for="desde">Desde:</label><br>
-                <input type="date" name='desde' class='cien' placeholder='Desde'><br>
-                <label for="hasta">Hasta:</label><br>
-                <input type="date" name='hasta' class='cien' placeholder="Hasta"><br>
-                <button type='submit'>Registralas!!!!!!</button>
+                <h2 class="boton-ig">1. Registra y pedi la autorizacion de tus vacaciones</h2>
+                <br>
+                <div class="boton-ig">
+                    <label for="desde">Desde:</label><br>
+                    <input type="date" name='desde' class='cien' placeholder='Desde'><br>
+                    <label for="hasta">Hasta:</label><br>
+                    <input type="date" name='hasta' class='cien' placeholder="Hasta"><br>
+                </div>
+                <p>Carga y confirma el mail de la persona que autoriza tus vacaciones</p>
+                <div class="boton-ig">
+                    <input type="email" name='autorizante'class='cien' placeholder="Email"><br>
+                    <!-- <label for="confirmaremail">Email:</label><br> -->
+                    <input type="email" name='confirmaremail'class='cien' placeholder="Confirmar email"><br>
+                    <!-- <label for="type">Tipo:</label><br> -->
+                    <button type='submit'>Pedilas!!!!!!</button>
+                </div> 
             </form>
         </div>
         <div class="inlet">
-            <h2>2. Envia el mail para pedir autorizacion</h2>
-            <p class= 'inicio-sesion'>Carga y confirma elmail de la persona que autoriza tus vacaciones</p>
-            <!-- <label for="email">Email:</label><br> -->
-            <form>
-                <input type="email" name='autorizante'class='cien' placeholder="Email"><br>
-                <!-- <label for="confirmaremail">Email:</label><br> -->
-                <input type="email" name='confirmaremail'class='cien' placeholder="Confirmar email"><br>
-                <!-- <label for="type">Tipo:</label><br> -->
-                <button type='submit'>Pedilas!!!!!!</button>
-           
-            </form>
-        </div>
-        <div class="inlet">
-            <h2>3. Verifica el estado de tu pedido</h2>
+            <h2>2. Verifica el estado de tu pedido</h2>
             <div id="menu-auto">
                 
                 <div class="boton">
@@ -51,7 +50,7 @@
                     <p>30/06/2020</p>
                 </div>
                 <div class="botondoble">
-                    <p>Autorizado</p>
+                    <p>PENDIENTE</p>
                 </div>
                 <div class="boton">
                     <form>
@@ -61,7 +60,7 @@
             </div>     
         </div>  
         <div class="inlet">
-        <h2>4. Mira tus vacaciones anteriores</h2>
+        <h2>3. Mira tus vacaciones anteriores</h2>
         </div>
     </div>
 

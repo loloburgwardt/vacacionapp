@@ -28,6 +28,12 @@
     "desde": "",
     "hasta": "",
     "estado": "Pendiente"
+   },
+   {
+    "desde": "2020-06-16",
+    "hasta": "2020-06-30",
+    "autorizante": "gburgwardt@yahoo.com",
+    "estado": "Pendiente"
    }
   ]
  }

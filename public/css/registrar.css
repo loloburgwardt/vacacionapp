@@ -4,12 +4,39 @@ html {
 body {
     background-color: cornflowerblue;
 }
+/* le doy forma al saludo de bienvenida al usuario*/
+
+
+h2.registrar-titulo{
+    display:block;
+    width:100%;
+    color: white;
+}
+/* hice un registrar-contairner para ubicar los inlets */
+
 .registrar-container {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
+/* inlet-grande contiene las fechas y el mail de autorizacion*/
+
+.inlet-grande {
+    margin: 20px;
+    padding: 5px;
+    border: blue solid 1px;
+    width: 1060px;
+    height: 150px; 
+}
+.boton-ig {
+    display: inline-flex;
+    margin: 5px 0px;
+    padding: 5px 0px;
+}
+
+
+/* Aca defino las caracteristicas de inpust, etc.*/
+
 
 button, input, label {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -19,13 +46,11 @@ button, input, label {
     
 }
 
-.registrar-titulo {
-    color: cornsilk;
-}
+
 
 .inlet {
     margin: 20px;
-    padding: 10px;
+    padding: 5px;
     border: blue solid 1px;
     width: 500px;
     height: 150px;
@@ -60,8 +85,4 @@ p {
 .boton form {
     width: 160px;
     height: 38px;
-}
-h2.registrar-titulo{
-    display:block;
-    width:100%;
 }
