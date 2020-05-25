@@ -4,6 +4,6 @@ const registrarController = require('../controllers/registrarController');
 const authLoginMiddleware = require('../middlewares/authLoginMiddleware')
 
 router.get('/', authLoginMiddleware,registrarController.index);
-router.post('/', authLoginMiddleware, registrarController.registrar);
+router.post('/', registrarController.registrar);
 
 module.exports = router;
