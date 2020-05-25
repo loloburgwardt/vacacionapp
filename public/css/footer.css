@@ -1,0 +1,9 @@
+footer {
+    height: 100px;
+    background-color: rgba(210, 226, 235, 0.979);
+}
+    
+footer h4 {
+    color: black;
+    margin: 2rem;
+}

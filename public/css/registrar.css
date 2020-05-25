@@ -1,0 +1,88 @@
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    background-color: cornflowerblue;
+}
+/* le doy forma al saludo de bienvenida al usuario*/
+
+
+h2.registrar-titulo{
+    display:block;
+    width:100%;
+    color: white;
+}
+/* hice un registrar-contairner para ubicar los inlets */
+
+.registrar-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* inlet-grande contiene las fechas y el mail de autorizacion*/
+
+.inlet-grande {
+    margin: 20px;
+    padding: 5px;
+    border: blue solid 1px;
+    width: 1060px;
+    height: 150px; 
+}
+.boton-ig {
+    display: inline-flex;
+    margin: 5px 0px;
+    padding: 5px 0px;
+}
+
+
+/* Aca defino las caracteristicas de inpust, etc.*/
+
+
+button, input, label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 85%;
+    margin: 1px;
+    display: inline-flex;
+    
+}
+
+
+
+.inlet {
+    margin: 20px;
+    padding: 5px;
+    border: blue solid 1px;
+    width: 500px;
+    height: 150px;
+    
+}
+.inlet form {
+    display: inline-flex;
+}
+#menu-auto {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.boton {
+    width: 150px;
+    height: 38px;
+    border: blue solid 1px;
+    padding: 1px;
+    margin: 1px;
+
+}
+p {
+    margin: 0px 2px;
+}
+
+.botondoble {
+    width: 308px;
+    height: 40px;
+    background-color: chartreuse;
+    padding: 1px;
+    margin: 1px;
+}
+.boton form {
+    width: 160px;
+    height: 38px;
+}

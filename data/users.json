@@ -1,24 +1,3 @@
 [
- {
-  "email": "gburgwardt@gmail.com",
-  "password": "$2a$10$I.38PjnyG/w4tPlGVuvZsOvy27mxdNFIoxCEBdxYZTxvvm3uoBx4W",
-  "pedidos": [
-   {
-    "desde": "2020-05-13",
-    "hasta": "",
-    "estado": "Pendiente"
-   }
-  ]
- },
- {
-  "email": "loloburgwardt@burgwardt.com.ar",
-  "password": "$2a$10$6WnpdaLEMLymu8pJuyH9quuxz/qRGaDGMUIhWuAUQkTUnMN2iPrbu",
-  "pedidos": [
-   {
-    "desde": "2020-05-30",
-    "hasta": "",
-    "estado": "Pendiente"
-   }
-  ]
- }
+ 
 ]
