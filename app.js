@@ -5,6 +5,7 @@ const homeRouter = require('./routes/home');
 const registrarRouter = require('./routes/registrar');
 const loginRouter = require('./routes/login');
 const session = require('express-session');
+const autorizarRouter = require('./routes/autorizar');
 
 //Seteamos las configuraciones de express
 app.use(express.static(__dirname + '/public'));
@@ -22,4 +23,5 @@ app.listen(3030, function(){
 //Rutas
 app.use('/', homeRouter);
 app.use('/registrar', registrarRouter);
+app.use('/autorizar', autorizarRouter);
 app.use('/login', loginRouter);

@@ -1,0 +1,38 @@
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    background-color: lightgray;
+}
+h2.registrar-titulo{
+    display:block;
+    width:100%;
+    color: white;
+}
+.volver {
+    display: inline-flex;
+    justify-content: space-between;
+}
+/* hice un registrar-contairner para ubicar los inlets */
+
+.registrar-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+
+}
+/* inlet-grande contiene las fechas y el mail de autorizacion*/
+
+.inlet-grande {
+    margin: 10px;
+    padding: 5px;
+    border: blue solid 1px;
+    width: 580px;
+    height: 350px;
+    
+}
+.auto-pend {
+    width: 560;
+    height: 50px;
+    border: blue solid 1px;
+
+}
