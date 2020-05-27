@@ -12,7 +12,6 @@ function crearSesionMiddleware(req, res, next){
         }
         res.render('index',{crearSesion})
     }else{
-        req.user = user
         next()
     }
 }

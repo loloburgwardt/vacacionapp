@@ -1,38 +1,29 @@
 [
  {
   "email": "loloburgwardt@burgwardt.com.ar",
-  "password": "$2a$10$6WnpdaLEMLymu8pJuyH9quuxz/qRGaDGMUIhWuAUQkTUnMN2iPrbu",
-  "pedidos": [
-   {
-    "desde": "2020-05-27",
-    "hasta": "2020-05-30",
-    "estado": "Pendiente"
-   },
-   {
-    "desde": "2020-06-05",
-    "hasta": "2020-06-11",
-    "estado": "Pendiente"
-   }
-  ]
+  "password": "$2a$10$Be5Y92N3NVPY8658F4n14.Un/q4XxpWnZGjFzrzClZjUM2oV8mUsq",
+  "pedidos": []
  },
  {
-  "email": "gburgwardt@gmail.com",
-  "password": "$2a$10$I.38PjnyG/w4tPlGVuvZsOvy27mxdNFIoxCEBdxYZTxvvm3uoBx4W",
+  "email": "pepito@gmail.com",
+  "password": "$2a$10$0laJi2BVUgMJC5Qh9.4j/u62cIxFfOCSwTSlfysLGCB7yx.LLB/Xu",
   "pedidos": [
    {
-    "desde": "2020-05-23",
-    "hasta": "2020-05-29",
+    "desde": "2020-05-30",
+    "hasta": "2020-06-04",
+    "autorizante": "gburgwardt@burgwardt.com.ar",
     "estado": "Pendiente"
    },
    {
-    "desde": "",
-    "hasta": "",
+    "desde": "2020-07-07",
+    "hasta": "2020-05-25",
+    "autorizante": "gburgwardt@burgwardt.com.ar",
     "estado": "Pendiente"
    },
    {
-    "desde": "2020-06-16",
-    "hasta": "2020-06-30",
-    "autorizante": "gburgwardt@yahoo.com",
+    "desde": "2020-05-28",
+    "hasta": "2020-05-30",
+    "autorizante": "gburgwardt@burgwardt.com.ar",
     "estado": "Pendiente"
    },
    {
