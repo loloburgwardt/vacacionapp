@@ -34,6 +34,18 @@
     "hasta": "2020-06-30",
     "autorizante": "gburgwardt@yahoo.com",
     "estado": "Pendiente"
+   },
+   {
+    "desde": "2020-07-08",
+    "hasta": "2020-08-04",
+    "autorizante": "jcburgwardt@burgwardt.com",
+    "estado": "Pendiente"
+   },
+   {
+    "desde": "",
+    "hasta": "",
+    "autorizante": "",
+    "estado": "Pendiente"
    }
   ]
  }
