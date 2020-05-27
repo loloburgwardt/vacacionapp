@@ -32,48 +32,49 @@
                     <button type='submit'>Pedilas!!!!!!</button>
                 </div> 
             </form>
+            <div class="inlet">
+                <h2>2. Verifica el estado de tu pedido</h2>
+                <div id="menu-auto">
+                    <%let pedido = user.pedidos[user.pedidos.length-1]%>
+                    <div class="boton">
+                       <p>Pedido del:</p>
+                       <p>xx/xx/2020</p>
+                    </div>
+                    <div class="boton">
+                        <p>Desde:</p>
+                        <p><%=pedido.desde%></p>
+                    </div>
+                    <div class="boton">
+                        <p>Hasta:</p>
+                        <p><%=pedido.hasta%></p>
+                    </div>
+                        <%switch (pedido.estado){
+                         case 'Pendiente' :%>
+                        <div style='background-color: yellow;' class="botondoble">
+                         <p><%=pedido.estado%></p>
+                    </div>
+                    <%break%>
+                    <%case 'Autorizado' :%>
+                    <div style='background-color: green;' class="botondoble">
+                        <p><%=pedido.estado%></p>
+                    </div>
+                    <%break%>
+                    <%case 'Rechazado' :%>
+                    <div style='background-color: red;' class="botondoble">
+                        <p><%=pedido.estado%></p>
+                    </div>
+                    <%break%>
+                    <%}%>
+                    <div class="boton">
+                        <form>
+                            <button type='submit'>Imprimi tu formulario</button>
+                        </form>
+                    </div>    
+                </div>     
+            </div>  
         </div>
-        <div class="inlet">
-            <h2>2. Verifica el estado de tu pedido</h2>
-            <div id="menu-auto">
-                <%let pedido = user.pedidos[user.pedidos.length-1]%>
-                <div class="boton">
-                   <p>Pedido del:</p>
-                   <p>xx/xx/2020</p>
-                </div>
-                <div class="boton">
-                    <p>Desde:</p>
-                    <p><%=pedido.desde%></p>
-                </div>
-                <div class="boton">
-                    <p>Hasta:</p>
-                    <p><%=pedido.hasta%></p>
-                </div>
-                    <%switch (pedido.estado){
-                     case 'Pendiente' :%>
-                    <div style='background-color: yellow;' class="botondoble">
-                     <p><%=pedido.estado%></p>
-                </div>
-                <%break%>
-                <%case 'Autorizado' :%>
-                <div style='background-color: green;' class="botondoble">
-                    <p><%=pedido.estado%></p>
-                </div>
-                <%break%>
-                <%case 'Rechazado' :%>
-                <div style='background-color: red;' class="botondoble">
-                    <p><%=pedido.estado%></p>
-                </div>
-                <%break%>
-                <%}%>
-                <div class="boton">
-                    <form>
-                        <button type='submit'>Imprimi tu formulario</button>
-                    </form>
-                </div>    
-            </div>     
-        </div>  
-        <div class="inlet">
+        
+        <div class="inlet-grande">
         <h2>3. Mira tus vacaciones anteriores</h2>
         </div>
     </div>

@@ -39,5 +39,10 @@
     "estado": "Pendiente"
    }
   ]
+ },
+ {
+  "email": "gburgwardt@yahoo.com",
+  "password": "$2a$10$hOJ8mos5xFOQu5CiOjeCmOpoTTiUOY4P0dBNHYYpcQyPjMRxNcZeq",
+  "pedidos": []
  }
 ]

@@ -17,16 +17,17 @@ h2.registrar-titulo{
 .registrar-container {
     display: inline-flex;
     flex-wrap: wrap;
-    justify-content: center;
+
 }
 /* inlet-grande contiene las fechas y el mail de autorizacion*/
 
 .inlet-grande {
-    margin: 20px;
+    margin: 10px;
     padding: 5px;
     border: blue solid 1px;
-    width: 1060px;
-    height: 150px; 
+    width: 580px;
+    height: 350px;
+    
 }
 .boton-ig {
     display: inline-flex;
@@ -48,12 +49,12 @@ button, input, label {
 
 
 
-.inlet {
-    margin: 20px;
-    padding: 5px;
+.inlet, form {
+    margin: 1px;
+    padding: 2px;
     border: blue solid 1px;
-    width: 500px;
-    height: 150px;
+    width: 580px;
+    height: 170px;
     
 }
 .inlet form {
